@@ -1,0 +1,71 @@
+.form-modal {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-modal-content {
+    padding: 2%;
+    width: 40%;
+    background: cadetblue;
+    text-align: center;
+}
+
+.form-modal-header h1 {
+    font-size: 40px;
+    color: white;
+}
+
+.joke-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
+}
+
+.joke-form label {
+    color: antiquewhite;
+}
+
+.joke-form input {
+    display: block;
+    margin: 10px auto;
+    text-align: center;
+    width: 80%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+}
+
+.joke-form button {
+    width: 200px;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.joke-form button:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .form-modal-content,
+    .joke-form {
+        width: 100%;
+    }
+    .joke-form-input {
+        width: 90%
+    }
+}
+
+

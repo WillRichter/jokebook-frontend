@@ -1,0 +1,11 @@
+header {
+    padding: 20px;
+    color: white;
+    background: darkslateblue;
+}
+
+.app-header-text {
+    font-size: 48px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+}
